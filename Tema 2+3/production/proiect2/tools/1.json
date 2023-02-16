@@ -1,0 +1,122 @@
+{
+  "id": "7542406D5A9F2D350A495CF2@AdobeID",
+  "firstName": "David",
+  "lastName": "Fairall",
+  "type": "TYPE1",
+  "email": "dfairall@americafirst.com",
+  "userName": "dfairall@americafirst.com",
+  "countryCode": "US",
+  "editable": true,
+  "removable": true,
+  "products": [
+    {
+      "id": "KVN64ACRRM98N325S4HR84EVS0",
+      "licenseGroups": [
+        {
+          "id": "38960957",
+          "name": "Analysis Workspace Access",
+          "licenseGroupId": 38960957,
+          "adminGroupId": 39070232,
+          "administerable": true,
+          "publicName": "Analysis Workspace Access",
+          "description": "Access to Analysis Workspace"
+        },
+        {
+          "id": "38960948",
+          "name": "Reports & Analytics Access",
+          "licenseGroupId": 38960948,
+          "adminGroupId": 39070226,
+          "administerable": true,
+          "publicName": "Reports & Analytics Access",
+          "description": "Access to Reports & Analytics"
+        },
+        {
+          "id": "38960954",
+          "name": "Ad Hoc Analysis License Users",
+          "licenseGroupId": 38960954,
+          "adminGroupId": 39070229,
+          "administerable": true,
+          "publicName": "Ad Hoc Analysis License Users",
+          "description": "Access to Ad Hoc Analysis"
+        },
+        {
+          "id": "173279369",
+          "name": "Recommendations API",
+          "licenseGroupId": 173279369,
+          "administerable": true,
+          "publicName": "Recommendations API",
+          "description": ""
+        },
+        {
+          "id": "38960933",
+          "name": "Access",
+          "licenseGroupId": 38960933,
+          "adminGroupId": 39070244,
+          "administerable": true,
+          "publicName": "Access",
+          "description": "All Access"
+        },
+        {
+          "id": "90589349",
+          "name": "AFCU Reports Access",
+          "licenseGroupId": 90589349,
+          "administerable": true,
+          "publicName": "AFCU Reports Access",
+          "description": "Access to all reports, all features of AFCU Reporting"
+        },
+        {
+          "id": "38960945",
+          "name": "Report Builder",
+          "licenseGroupId": 38960945,
+          "adminGroupId": 39070220,
+          "administerable": true,
+          "publicName": "Report Builder",
+          "description": "Access to ReportBuilder"
+        },
+        {
+          "id": "90589237",
+          "name": "All Reports Access",
+          "licenseGroupId": 90589237,
+          "administerable": true,
+          "publicName": "All Reports Access",
+          "description": "Access to All Report Suites, All Metrics"
+        },
+        {
+          "id": "38960951",
+          "name": "Activity Map Access",
+          "licenseGroupId": 38960951,
+          "adminGroupId": 39070223,
+          "administerable": true,
+          "publicName": "Activity Map Access",
+          "description": "NOTE: Activity Map is only available for Adobe Analytics Standard or Premium customers. Point product (SiteCatalyst) customers can add users to this group, but those users will not be able to download, install, or use Activity Map. Point product customers can continue to use the legacy ClickMap tool for visual, in-context analytics."
+        },
+        {
+          "id": "38960963",
+          "name": "All Report Access-D",
+          "licenseGroupId": 38960963,
+          "adminGroupId": 39070235,
+          "administerable": true,
+          "publicName": "All Report Access-D",
+          "description": "Access to all Report Suites, Dimensions, Metrics, Channel Reports, Anomaly Detection, Current Data, Analysis Workspace, My Recommended Reports and Dashboard Reportlets"
+        },
+        {
+          "id": "4806426",
+          "name": "Adobe Analytics/Adobe Social - Default Access:Analytics - America First Credit Union",
+          "licenseGroupId": 4806426,
+          "adminGroupId": 4948593,
+          "administerable": true,
+          "publicName": "Adobe Analytics/Adobe Social - Default Access:Analytics - America First Credit Union"
+        }
+      ]
+    },
+    {
+      "id": "BW0JQJYJZ3ER5JA4NQQX29YVNG",
+      "licenseGroups": [
+        {
+          "id": "49258777",
+          "name": "Digital Marketing",
+          "licenseGroupId": 49258777,
+          "administerable": true,
+          "publicName": "Digital Marketing",
+          "description": "Digital Marketing"
+        }

@@ -1,0 +1,352 @@
+{
+  "account_type": "type1",
+  "utcOffset": "null",
+  "preferred_languages": null,
+  "displayName": "David Fairall",
+  "roles": [],
+  "last_name": "Fairall",
+  "userId": "7542406D5A9F2D350A495CF2@AdobeID",
+  "authId": "7542406D5A9F2D350A495CF2@AdobeID",
+  "projectedProductContext": [
+    {
+      "prodCtx": {
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_dataworkbench",
+        "ident": "BW0JQJYJZ3ER5JA4NQQX29YVNG",
+        "groupid": "41189369",
+        "label": "Data Workbench",
+        "modDts": 1534497942000,
+        "enable_sub_service": "",
+        "serviceLevel": "standard",
+        "createDts": 1534497939000,
+        "offer_id": "3C8FAA2B1A929C3BE92E9C3BAF382919",
+        "user_removable": "false",
+        "MIGRATE_GROUP_ID": "41189369",
+        "user_visible_name": "Data Workbench",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "90589349",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "dma_analytics,user_group_assignment,user_sync,domain_claiming,user_permission_management,overdelegation_allowed",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "AFCU Reports Access",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "38960957",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "Analysis Workspace Access",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_auditor",
+        "ident": "05PWTHA2W03BATT7QKJV4GWX50",
+        "groupid": "549281",
+        "label": "Auditor",
+        "modDts": 1525074267000,
+        "serviceLevel": "standard",
+        "deal_id": "",
+        "createDts": 1525074267000,
+        "offer_id": "420A3D2FB4ED424CE2FD09FBD7879083",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_dataworkbench",
+        "ident": "BW0JQJYJZ3ER5JA4NQQX29YVNG",
+        "groupid": "49258777",
+        "label": "Data Workbench",
+        "modDts": 1534497942000,
+        "enable_sub_service": "attribution,beta_enabled",
+        "serviceLevel": "standard",
+        "createDts": 1534497939000,
+        "offer_id": "3C8FAA2B1A929C3BE92E9C3BAF382919",
+        "MIGRATE_GROUP_ID": "41189369",
+        "user_visible_name": "Digital Marketing",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "38960954",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "Ad Hoc Analysis License Users",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "orig_sys": "jem",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_aem_onprem",
+        "EMPTY_KEY": "",
+        "ident": "020DB530D09A8A46C15A",
+        "groupid": "549281",
+        "label": "DMA AEM On-Prem",
+        "modDts": 1626116245000,
+        "enable_sub_service": "dx_aem_onprem",
+        "serviceLevel": "standard",
+        "createDts": 1626116245000,
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_audiencemanager_int",
+        "ident": "SDT5K5SM7NQ87YJF8P04BEN70W",
+        "groupid": "549281",
+        "label": "Audience Manager Integration",
+        "modDts": 1508262006000,
+        "serviceLevel": "standard",
+        "deal_id": " ",
+        "createDts": 1508262006000,
+        "offer_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "38960933",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "Access",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "38960963",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "dma_analytics,user_group_assignment,user_sync,domain_claiming,user_permission_management,overdelegation_allowed",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "All Report Access-D",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "38960951",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "Activity Map Access",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "90589237",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "All Reports Access",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "173279369",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "Recommendations API",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "38960948",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "Reports & Analytics Access",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "38960945",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "user_visible_name": "Report Builder",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "global_company_id": "americ33",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_analytics",
+        "ident": "KVN64ACRRM98N325S4HR84EVS0",
+        "groupid": "4806426",
+        "login_company": "America First Credit Union",
+        "migration_status": "COMPLETE",
+        "label": "Analytics",
+        "modDts": 1534497931000,
+        "enable_sub_service": "",
+        "serviceLevel": "premium",
+        "createDts": 1380298107000,
+        "offer_id": "5125B5F5ECF553AC38ACCF31FC73AB0A",
+        "is_preferred": "",
+        "RENGA_TEST_PARAM1": "x",
+        "deal_id": "",
+        "statusCode": "ACTIVE"
+      }
+    },
+    {
+      "prodCtx": {
+        "tenant_id": "americafirstcreditunion",
+        "owningEntity": "A7873BC75245AD770A490D4D@AdobeOrg",
+        "serviceCode": "dma_tartan",
+        "ident": "47343D0M7XTS842EAV0D4Y7MT8",
+        "groupid": "549281",
+        "label": "Adobe Marketing Cloud",
+        "modDts": 1501861995000,
+        "serviceLevel": "standard",
+        "createDts": 1380298105000,
+        "offer_id": "DBFD60C04361444857B80B181767BE62",
+        "geo": "useast",
+        "deal_id": " ",
+        "statusCode": "ACTIVE"
+      }
+    }
+  ],
+  "emailVerified": "true",
+  "phoneNumber": null,
+  "countryCode": "US",
+  "optionalAgreements": [
+    "CA_ML"
+  ],
+  "name": "David Fairall",
+  "mrktPerm": "EMAIL:false",
+  "mrktPermEmail": "false",
+  "first_name": "David",
+  "email": "dfairall@americafirst.com"
+}

@@ -1,0 +1,89 @@
+Nume si Prenume: Girlea Anana Catalina
+Grupa: 323CAa
+
+In cadrul acestui proiect am avut de impartit cadouri unor copii pe parcursul a mai multor ani.
+
+Clase create:
+
+Pentru citirea datelor de intrare si pentru crearea fisierelor de output:
+InputLoader     - Se creaza obirctul de tip ObjectMapper.
+
+Output          - Contine lista cu listele de copii care au primit cadouri in fiecare an.
+
+OutputYears     - Contine lista cu toti copii dintr-un an .
+
+OutputChild     - Contine formatul de afisare in fisier a noului copil cu informatiile cerute.
+
+Pentru retinerea datelor:
+Input 			- Prin aceasta clasa retin datele initiale: numarul de ani in care distribui
+                cadouri, bugetul mosului, listele de copii si cadouri si lista de schimbari
+                anuale.
+
+InitialData	    - Prin aceasta clasa retin continutul listelor de copii de tip "Child" si
+                cadouri de tip "SantaGiftsList". Implementez metodele pentru gasirea elementului
+                cu pretul cel mai mic din fiecare categorie si le apelez in cadrul metodei
+                "getGiftChild" pentru a asigna cadouri unui copil in limita bugetului si in
+                ordinea preferintelor.
+
+Child	        - Prin aceasta metoda retin tot ce tine de un copil: id-ul, numele de familie,
+                prenumele, varsta, orasul, scorul, lista de preferinte, lista de scoruri,
+                bugetul alocatacetuia de catre mos si lista de cadouri a fiecarui coil. Tot
+	            aici implementez metodele "score" care creaza lista de scoruri si "averageScore"
+		        care calculeaza scorul mediu al unui copil.
+
+SantaGiftsList  - Prin aceasta metoda retin tot ce tine de un cadou: numele, pretul si
+                categoria din care acesta face parte.
+
+AnnualChanges   - Prin aceasta clasa retin schimbarile anuale: noul buget, lista de cadouri
+                adaugate,lista de copii noi, lista de actualizari ale datelor copiilor din lista
+                cu toti copii. Implementezmetoda "updates" in care actualizes listele cu scoruri
+                si preferinte ale copiilor. Tot inaceasta metoda apelez "addingNewChildren" care
+                adauga copii noi introdusi in lista decopii existenti si "addingNewGifts" care
+                adauga cadourile noi introduse in lista cu toatecadourile.
+
+ChildrenUpdates	- Prin aceasta clasa retin schimbarile facute in fiecare an la lista cu toti
+                copiii.
+
+Budget	        - Clasa in care este implementat un pattern de tip Singleton si este creata
+				metoda "getBudgetUnit" care calculeaza unitatea de buget in fiecare an.
+
+Main            - Citesc datele din fisier de model JSON si Jackson cu ajutorul ObjectMapper .
+					Prelucrez runda 0, apoi fac un for in care trec prin toti anii si transform
+					informatiile primite in formatele output, outputYears si outputChild.
+
+Alte mentiuni:
+Am 3 erori de checkstyle.
+
+In cadrul acestei implementari m-am folosit de pattern-urile Stragey, Factory, Singleton si
+Command.
+Am folosit incapsulare, clase interne si maparea in fisier de tip JSON si Jackson.
+
+Maparea se face prin creerea unui obiect de tip ObjectMapper.
+Citirea incepe de la creerea unei instante de tipul "Input".
+Scrierea in fisier se face prin o instanta de tip "Output".
+
+
+Patters folosite:
+
+Stragey pattern:
+BudgetAllocator are ca membru clasa AnnualContext, clasa care contine strategia anului respectiv
+si alte date necesare.
+AnnualStrategy este responsabil de executia strategiei din anul respectiv. Pentru asta s-a creat
+interfata AnnualStrategy care primeste ca input lista de copii si care returneaza aceasi lista de
+copii ordonata conform startegiei din anul respectiv.
+Implementari concrete ale metodei execute : idOrderStrategy, niceScoreStrategy,
+niceCityScoreStrategy.
+
+Factory pattern:
+A fost implementat in cadorul alocarii de buget astfel incat sa putem aplica strategii diferite
+de alocare de cadouri.
+Implementari concrete: CheapestGiftAllocator
+
+Singleton pattern:
+Folosim in DataUtil, o clasa utilitara a carui scop este sa citeasca si scrie in fisiere.
+
+Command pattern:
+A fost implementat in cadrul interfatei BudgetAllocator in care avem meoda ComputeGiftList.
+Programul lucreaza cu interfata BudgetAllocator si nu cu implementarile specifice
+ex. CheapestGiftAllocator
+La fe si in cazul implementarii strategiilor anuale de ordonare a copiilor.

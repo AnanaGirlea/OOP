@@ -1,0 +1,6 @@
+Starting audit...
+[ERROR] /Users/ananagirlea/Desktop/oop-asignments-final/proiect2/./src/tools/ChangesUtil.java:16:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /Users/ananagirlea/Desktop/oop-asignments-final/proiect2/./src/data/CityScore.java:14:41: Parameter score should be final. [FinalParameters]
+[ERROR] /Users/ananagirlea/Desktop/oop-asignments-final/proiect2/./src/data/CityScore.java:29:26: Parameter add should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 3 errors.
